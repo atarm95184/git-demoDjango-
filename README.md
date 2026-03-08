@@ -97,6 +97,8 @@
 
 
 ### 從雲端拉取
+- git clone https://github.com/atarm95184/git-demoDjango-.git
+ - (在家時)創建目錄 點右鍵 Open Git Bash here 在終端機貼上
 - git pull
 
 
