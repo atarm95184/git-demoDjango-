@@ -92,7 +92,7 @@
 ### 檢視雲端網址
 - git remote -v
 
-### 推送到雲端
+### 推送到雲端 在家使用
 - git push -u origin master
 	-第一次推先打這個
 - git push
