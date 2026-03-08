@@ -1,0 +1,106 @@
+# Git指令集練習
+
+### Markdown
+- https://hackmd.io/@howkii-studio/markdown_intro
+
+### 檢視當前版本
+- git version
+
+### 註冊全域資訊  (不可中文)
+- git config --global user.name 名稱
+- git config --global user.gmail 名稱@gmail
+
+### 初始化倉庫
+- git init
+- .git/ 
+
+### 控管狀態  (在檔案左側顯示)
+- U -> Untrack (未追蹤)
+- A -> Added (已加入)
+- D -> Deleted (刪除狀態)
+- M -> Modified (已變更)
+(內容變動顯示M，回原本內容即恢復原管控狀態) 
+
+
+### 加上控管
+- git add 檔名.副檔名
+- git add .   (加入所有變動，包含加入控管,如果有.venv不要使用)
+
+### 檢視裝態 (受控管的檔案會顯示綠色)
+- git status
+
+### 恢復刪除
+- git restore 檔名.副檔名
+
+### 加入不控管的項目
+- 新增目錄  .gitignore
+	- 可以在 .gitignore 將檔案.副檔名和目錄/加入不控管會變灰字
+
+### 檢視暫存區狀態
+- git ls-files -s
+
+### 恢復上一動
+- git checkout filename
+- git checkout .
+
+### 加入倉庫
+- git commit -m "專案初始化完成"
+(將目前的修改正式存檔到版本庫中)
+(管控狀態的顯示會消失)
+(若有修改需再次存入)
+
+### 檢視倉庫
+- git log  (視大小慢慢顯示編碼及改動)
+	-資訊過多，按Enter後，按q離開
+- git log --oneline (簡約顯示編碼及改動)
+
+### 分支的概念
+- master(主分支)
+- git branch (檢視目前主分支)
+
+### 切換commit (切到指定時段的程式碼)
+- git checkout 五碼(6da4d)
+	 -觀察當時的程式碼
+- git checkout master(切到主分支)
+
+### 新增分支
+- git branch 名稱 (隨意名稱)	
+	- 課程名稱為:test
+
+
+### 切換分支
+- git checkout 名稱
+
+
+### 合併分支 
+- git checkout master 
+	-合併前要回到主分支
+- git merge 名稱
+
+
+### 刪除分支 
+- git branch -D 名稱
+
+### 申請github 
+
+
+### 綁訂到雲端倉庫
+- git remote add origin https://github.com/atarm95184/git-demoDjango-.git
+
+### 檢視雲端網址
+- git remote -v
+
+### 推送到雲端
+- git push -u origin master
+	-第一次推先打這個
+- git push
+
+
+### 從雲端拉取
+- git pull
+
+
+### VSCODE 
+- ctrl+shift+p
+- 更改終端機
+	- default terminal ->cmd.exe
