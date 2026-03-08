@@ -16,7 +16,7 @@ x=random.randint(start,end)
 #print(x)
 
 for i in range(count):
-    y=int(input(f"請猜一個數字({start}~{end}):"))
+    y=int(input(f"猜第{i+1}/{count}次,請猜一個數字({start}~{end}):"))
     
     # 猜對 + break
     if x==y:
@@ -28,7 +28,7 @@ for i in range(count):
         print("猜大一點")
     else:
         print("猜小一點")
-   
+    
 
 if x!=y:
     print("正確答案:%d"%x)
