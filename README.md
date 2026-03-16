@@ -7,8 +7,9 @@
 - git version
 
 ### 註冊全域資訊  (不可中文)
-- git config --global user.name 名稱
-- git config --global user.gmail 名稱@gmail
+- git config --global user.gmail "名稱@gmail"
+- git config --global user.name "名稱"
+
 
 ### 初始化倉庫
 - git init
