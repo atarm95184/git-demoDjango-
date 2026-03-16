@@ -87,7 +87,7 @@
 
 
 ### 綁訂到雲端倉庫
-- git remote add origin https://github.com/atarm95184/git-demoDjango-.git
+- git remote add origin https://github.com/atarm95184/git-demoDjango-.git (目標專案的網址)
 
 ### 檢視雲端網址
 - git remote -v
@@ -101,7 +101,7 @@
 
 
 ### 從雲端拉取
-- git clone https://github.com/atarm95184/git-demoDjango-.git
+- git clone https://github.com/atarm95184/git-demoDjango-.git (目標專案的網址)
  - (在家時)創建目錄 點右鍵 Open Git Bash here 在終端機貼上
 - git pull
 
