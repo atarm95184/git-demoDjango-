@@ -70,16 +70,20 @@
 - git branch 名稱 (隨意名稱)	
 	- 課程名稱為:test
 
-
 ### 切換分支
 - git checkout 名稱
 
 
 ### 合併分支 
-- git checkout master 
-	-合併前要回到主分支
-- git merge 名稱
 
+-合併前要回到主分支
+	- git checkout master 
+- git merge 要合併的分支名稱
+
+
+###新增分支並切換
+
+- git checkout -b 名稱 
 
 ### 刪除分支 
 - git branch -D 名稱
