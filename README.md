@@ -75,13 +75,12 @@
 
 
 ### 合併分支 
-
--合併前要回到主分支
+- 合併前要回到主分支
 	- git checkout master 
 - git merge 要合併的分支名稱
 
 
-###新增分支並切換
+### 新增分支並切換
 
 - git checkout -b 名稱 
 
