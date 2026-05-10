@@ -33,10 +33,6 @@
 ### 恢復刪除
 - git restore 檔名.副檔名
 
-### VSCODE
-- ctrl+shift+p
-- 更改終端機
-	- default terminal =>cmd
 
 ### 加入不控管的項目
 - 新增目錄  .gitignore
