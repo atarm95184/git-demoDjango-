@@ -7,7 +7,7 @@
 - git version
 
 ### 註冊全域資訊  (不可中文)
-- git config --global user.gmail "名稱@gmail"
+- git config --global user.email "名稱@email"
 - git config --global user.name "名稱"
 
 
@@ -32,6 +32,11 @@
 
 ### 恢復刪除
 - git restore 檔名.副檔名
+
+### VSCODE
+- ctrl+shift+p
+- 更改終端機
+	- default terminal =>cmd
 
 ### 加入不控管的項目
 - 新增目錄  .gitignore
